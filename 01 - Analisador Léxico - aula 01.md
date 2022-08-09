@@ -28,7 +28,7 @@ ENQUANTO argumento > 1
 IMPRIMIR fatorial
 ```
 
-3. Criar um enum algumalex.TipoToken.java
+3. Criar um enum algumalex.TipoToken
 
 ```java
 package algumalex;
@@ -43,7 +43,7 @@ public enum TipoToken {
 }
 ```
 
-4. Criar a classe algumalex.Token.java
+4. Criar a classe algumalex.Token
 
 ```java
 package algumalex;
@@ -62,7 +62,7 @@ public class Token {
 }
 ```
 
-5. Criar a classe algumalex.LeitorDeArquivosTexto.java
+5. Criar a classe algumalex.LeitorDeArquivosTexto
 
 ```java
 package algumalex;
@@ -91,7 +91,7 @@ public class LeitorDeArquivosTexto {
 }
 ```
 
-6. Criar a classe algumalex.AlgumaLexico.java
+6. Criar a classe algumalex.AlgumaLexico
 
 ```java
 package algumalex;
@@ -126,7 +126,7 @@ public class AlgumaLexico {
 
 - CONTINUAÇÃO:
 
-8. Adicionar na classe AlgumaLexico.java [após o comando if(c == ' ' || c == '\n') continue;] o código para os tokens com um único caractere e executar
+8. Adicionar na classe AlgumaLexico [após o comando if(c == ' ' || c == '\n') continue;] o código para os tokens com um único caractere e executar
 
 ```java
             if(c == ':') {
