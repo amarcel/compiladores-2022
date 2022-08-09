@@ -111,7 +111,7 @@ public class AlgumaLexico {
 }
 ```
 
-7. Criar a classe algumalex.Main, com o seguinte código no main() e executar
+7. Na classe que contém o método main(), programar dentro do método main():
 
 ```java
         AlgumaLexico lex = new AlgumaLexico(COLOQUE_O_CAMINHO_DO_ARQUIVO_ALGUMA_AQUI);
